@@ -1,0 +1,14 @@
+$i : 40px; 
+
+.squares {
+  float: left;
+  width: $i;
+  height: $i;
+  margin-left: $i/4;
+  background: #3f717c;
+}
+
+.scene {
+  margin: $i/2 auto;
+  display: table;
+}

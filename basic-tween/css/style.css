@@ -1,0 +1,12 @@
+.squares {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  background: #3f717c;
+}
+
+.scene {
+  margin: 20px auto;
+  display: table;
+}

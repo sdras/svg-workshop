@@ -1,0 +1,24 @@
+body {
+  background: #222;
+}
+
+.houses-contain {
+  margin: 90px auto;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row no-wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.house-loader {
+  width: 200px;
+  height: auto;
+  top: 30px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
