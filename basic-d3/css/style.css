@@ -1,0 +1,8 @@
+svg {
+  margin: 20px 0 0 -100px;
+  width: 100vw;
+  height: 100vh;
+}
+svg circle {
+  fill: magenta;
+}

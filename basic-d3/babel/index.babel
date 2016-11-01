@@ -1,0 +1,67 @@
+var dataset = [5, 17, 15, 13, 25, 30, 15, 17, 35, 10, 25, 15],
+    w = 300,
+    h = 300,
+    margin = {top: 20, right: 20, bottom: 50, left: 70},
+    fh = h - margin.bottom;
+
+//create svg
+var svg = d3.select("body")
+            .append("svg")
+            .attr("viewBox", "-100 -20 350 400");
+
+console.log(d3.max(dataset));
+
+//create shapes in svg with data
+svg.selectAll("circle")
+   .data(dataset)
+   .enter()
+   .append("circle")
+   .attr("class", "circles")
+   .attr("cx", function(d, i) {
+      return 10 + (i * 22)
+    })
+   .attr("cy", function(d) {
+     return h - (d * (h / d3.max(dataset))) 
+   })
+   .attr("r", function(d) {
+     return (d / 2)
+   })
+  .transition()
+    .style("fill", "teal")
+    .duration(1500)
+    .delay(function(d, i) { return i * 100; });
+
+//create appropriate ranges
+var y = d3.scaleLinear().range([h, 0]);
+var x = d3.scaleLinear().range([0, w - 50]);
+
+// Scale the range of the data
+x.domain([0, dataset.length]);
+y.domain([0, d3.max(dataset, function(d) { return d; })]);
+
+// Add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + h + ")")
+      .call(d3.axisBottom(x));
+
+  // text label for the x axis
+  svg.append("text") 
+      //puts the label on the bottom in the middle
+      .attr("transform",
+            "translate(" + (w/2) + " ," + 
+                           (h + margin.top + 20) + ")")
+      .style("text-anchor", "middle")
+      .text("Number of Participants");
+
+  // Add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+  // text label for the y axis
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left)
+      .attr("x",0 - (h / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Value");      
