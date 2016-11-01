@@ -1,0 +1,16 @@
+body, html {
+  background: #EFEFBB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EFEFBB, #D4D3DD);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(right, #EFEFBB, #D4D3DD);
+  background: linear-gradient(to left, #EFEFBB, #D4D3DD);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: #2b7ba0;
+  text-align: center;
+  letter-spacing: 0.03em;
+  overflow: hidden;
+}
