@@ -1,0 +1,86 @@
+html, body {
+  background: #555;
+}
+
+svg {
+  margin: 10px;
+}
+
+.switcher .office {
+  #bulb { animation: switch 3s 4 ease both; }
+  #background { animation: fillChange 3s 4  ease both; }
+}
+
+@keyframes switch {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fillChange {
+  50% {
+    fill: #FFDB79;
+  }
+}
+
+.cls-1 {
+  fill: #cccbca;
+}
+
+.cls-2 {
+  isolation: isolate;
+}
+
+.cls-3 {
+  fill: #2179c1;
+}
+
+.cls-13,
+.cls-4 {
+  fill: #fff;
+}
+
+.cls-14,
+.cls-5 {
+  fill: #474f59;
+}
+
+.cls-6 {
+  fill: #353f49;
+}
+
+.cls-7 {
+  fill: #d9d8d7;
+}
+
+.cls-8 {
+  fill: #f77b55;
+}
+
+.cls-9 {
+  fill: #76d0de;
+}
+
+.cls-11 {
+  fill: #f2f2f2;
+}
+
+.cls-12 {
+  fill: #232e38;
+}
+
+.cls-13 {
+  opacity: 0.23;
+}
+
+.cls-14 {
+  mix-blend-mode: screen;
+}
+
+.cls-15 {
+  fill: #ee643c;
+}
+
+.switcher {
+  float: left;
+}

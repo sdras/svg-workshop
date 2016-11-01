@@ -1,0 +1,108 @@
+.demo .s1 {
+  border-left: 1px solid #666666;
+  border-right: 1px solid #666666;
+}
+.demo .s2 {
+  border-left: 1px solid #5e666e;
+  border-right: 1px solid #5e666e;
+}
+.demo .s3 {
+  border-left: 1px solid #575c75;
+  border-right: 1px solid #575c75;
+}
+.demo .s4 {
+  border-left: 1px solid #554f7d;
+  border-right: 1px solid #554f7d;
+}
+.demo .s5 {
+  border-left: 1px solid #624785;
+  border-right: 1px solid #624785;
+}
+.demo .s6 {
+  border-left: 1px solid #79408c;
+  border-right: 1px solid #79408c;
+}
+.demo .s7 {
+  border-left: 1px solid #94388e;
+  border-right: 1px solid #94388e;
+}
+.demo .s8 {
+  border-left: 1px solid #9c3073;
+  border-right: 1px solid #9c3073;
+}
+.demo .s9 {
+  border-left: 1px solid #a3294f;
+  border-right: 1px solid #a3294f;
+}
+.demo .s10 {
+  border-left: 1px solid #ab2121;
+  border-right: 1px solid #ab2121;
+}
+.demo .s11 {
+  border-left: 1px solid #b3491a;
+  border-right: 1px solid #b3491a;
+}
+.demo .s12 {
+  border-left: 1px solid #ba7b12;
+  border-right: 1px solid #ba7b12;
+}
+.demo .s13 {
+  border-left: 1px solid #c2b60a;
+  border-right: 1px solid #c2b60a;
+}
+.demo .s14 {
+  border-left: 1px solid #98c903;
+  border-right: 1px solid #98c903;
+}
+.demo .s15 {
+  border-left: 1px solid #59cc00;
+  border-right: 1px solid #59cc00;
+}
+.demo .s16 {
+  border-left: 1px solid #1acc00;
+  border-right: 1px solid #1acc00;
+}
+.demo .s17 {
+  border-left: 1px solid #00cc26;
+  border-right: 1px solid #00cc26;
+}
+.demo .s18 {
+  border-left: 1px solid #00cc66;
+  border-right: 1px solid #00cc66;
+}
+.demo .s19 {
+  border-left: 1px solid #00cca6;
+  border-right: 1px solid #00cca6;
+}
+.demo .s20 {
+  border-left: 1px solid #00b3cc;
+  border-right: 1px solid #00b3cc;
+}
+.demo .playthings {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+html,
+body {
+  background: #333;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  cursor: crosshair;
+}
+
+@media screen and (max-width: 600px) {
+  .demo .playthings {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}

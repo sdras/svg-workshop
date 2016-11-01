@@ -1,0 +1,43 @@
+$amt : 350px;
+
+@mixin colors($max, $color-frequency){
+  $color: 300/$max;
+  
+  // fruit loops!
+  @for $i from 1 through $max {
+    .s#{$i} {
+      border-left: 1px solid hsl(($i - 10)*($color*1.25), ($i - 1)*($color / $color-frequency), 40%);
+      border-right: 1px solid hsl(($i - 10)*($color*1.25), ($i - 1)*($color / $color-frequency), 40%);
+    }
+  }
+} 
+.demo {
+  @include colors(20,2);
+  
+  .playthings {
+    position: absolute;
+    width: $amt; 
+    height: $amt;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+}
+
+html,
+body {
+  background: #333;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  cursor: crosshair;
+}
+
+@media screen and (max-width: 600px) {
+  .demo .playthings {
+    width: 100px !important; 
+    height: 100px !important;
+  }
+}

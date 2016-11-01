@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/sdras/pen/pyedJE.
+
+ This is a little  animation experiment with react-motion. A lot of this is just forked and messed with from the react-motion chat heads demo. https://github.com/chenglou/react-motion/tree/master/demos/demo1-chat-heads. It's interesting because we're updating placement based on the previous item, including things like like rotation. Color is made with a SASS function.

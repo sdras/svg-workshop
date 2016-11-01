@@ -1,0 +1,67 @@
+const { StaggeredMotion, spring } = ReactMotion
+
+const Demo = React.createClass({
+  getInitialState() {
+    return {x: 250, y: 300, rotate:0};
+  },
+
+  componentDidMount() {
+    window.addEventListener('mousemove', this.handleMouseMove);
+    window.addEventListener('touchmove', this.handleTouchMove);
+  },
+
+  //we're setting the state to be equal to the position
+  handleMouseMove({pageX: x, pageY: y}) {
+    this.setState({x, y});
+  },
+
+  handleTouchMove({touches}) {
+    this.handleMouseMove(touches[0]);
+  },
+
+  getStyles(prevStyles) {
+    // we're using the previous style to update the next ones placement
+    const endValue = prevStyles.map((_, i) => {
+      let stiff = 200, damp = 15;
+      return i === 0
+        ? this.state
+        : {
+            x: spring(prevStyles[i - 1].x, {stiffness: stiff, damping: damp}),
+            y: spring(prevStyles[i - 1].y, {stiffness: stiff, damping: damp}),
+            rotate: spring((i * 10), {stiffness: stiff, damping: damp})
+          };
+    });
+    return endValue;
+  },
+
+  render() {
+    let arr = [], amtHalf = 175;
+    for (var i = 0; i < 50; i++) {
+      arr.push({x: 0, y:0, rotate:0});
+    }
+    return (
+      <div>
+        <StaggeredMotion
+          defaultStyles = {arr} 
+          styles={this.getStyles}>
+          {lines =>
+            <div className="demo">
+              {lines.map(({x, y, rotate}, i) =>
+                <div
+                  key={i}
+                  className={`playthings s${i}`}
+                  // we have to subtract half the amount of $amt in the CSS panel so that the mouse stays in the center of the object we're creating
+                  style={{
+                    WebkitTransform: `translate3d(${x - amtHalf}px, ${y - amtHalf}px, 0) rotate(${rotate}deg)`,
+                    transform: `translate3d(${x - amtHalf}px, ${y - amtHalf}px, 0) rotate(${rotate}deg)`
+                  }} />
+              )}
+            </div>
+          }
+        </StaggeredMotion>
+      </div>
+    );
+  },
+});
+
+React.render(<Demo />, document.querySelector('#app'));
