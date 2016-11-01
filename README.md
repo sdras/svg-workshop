@@ -8,14 +8,14 @@ This repo houses the materials and resources for the Advanced SVG Animation Work
 For sections covering React-Motion, it may make more sense to use Create-React-App so that your workflow more closely mirrors development, but that decision is up to you.
 
 ##Slides:
-* [SVG Workshop 1](http://slides.com/sdrasner/smashing-workshop1?token=GwIg9v4C)
-* [SVG Workshop 2](http://slides.com/sdrasner/smashingworkshop2?token=pR5HLetg)
-* [SVG Workshop 3](http://slides.com/sdrasner/smashing-workshop3?token=zWiaoPN8)
+* [SVG Workshop 1](http://slides.com/sdrasner/workshop1?token=GwIg9v4C)
+* [SVG Workshop 2](http://slides.com/sdrasner/workshop2?token=pR5HLetg)
+* [SVG Workshop 3](http://slides.com/sdrasner/workshop3?token=zWiaoPN8)
 * [SVG Workshop- DataVis](http://slides.com/sdrasner/svg-workshop-data-vis?token=rC0MZakh)
 * [SVG Workshop- React](http://slides.com/sdrasner/advanced-svg-animation-react?token=ufkHSlmC)
 * [SVG Workshop- Mo.js](http://slides.com/sdrasner/svg-workshop-mojs?token=wAkiI-Pe)
 
-All slides have password svgisawesome!@!
+All slides have password svgisawesome!@
 
 ##Collections:
 * [SVG and CSS/GreenSock CodePen Collection](http://codepen.io/collection/XvBQJQ/)
