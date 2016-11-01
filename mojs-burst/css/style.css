@@ -1,0 +1,18 @@
+body, html {
+  background: #2a3d45;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #2a3d45 0%, #2b7ba0 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2a3d45 0%, #2b7ba0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3d45', endColorstr='#2b7ba0',GradientType=0 );
+  /* IE6-9 */
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: #2b7ba0;
+  text-align: center;
+  letter-spacing: 0.03em;
+  overflow: hidden;
+}

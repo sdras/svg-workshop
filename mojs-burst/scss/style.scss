@@ -1,0 +1,14 @@
+body, html {
+  background: rgb(42,61,69); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(42,61,69,1) 0%, rgba(43,123,160,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(42,61,69,1) 0%,rgba(43,123,160,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(42,61,69,1) 0%,rgba(43,123,160,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3d45', endColorstr='#2b7ba0',GradientType=0 ); /* IE6-9 */
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: rgba(43,123,160,1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  overflow: hidden;
+}
