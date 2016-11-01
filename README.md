@@ -39,3 +39,10 @@ There are three directories you can use as GSAP starter kits:
 There are a few ways to work with the GSAP timeline in this file: gsap-resources.js. For any interaction with jQuery, remember to use the 3.0+ version. [Alpha](https://code.jquery.com/jquery-3.0.0-alpha1.js)
 
 ##DataVis
+The starter resource for this section is in the directory basic-d3. This is d3 version 4, so be wary that if you try out of the box things that exist in the d3 docs for the blocks, they might not work. (Not very many d3 blocks have been updated.) Big changes include axis and transition, new version demo-ed here.
+
+##Mojs
+Mojs-shapes directory includes every out of the box shape that mo.js allows you to create. You can also create custom shapes (look in the mo.js codepen collection for bouncy radio demo for an example).
+
+Mojs-tools directory shows a simple shape tween and .then() syntax with both timeline and curve-editor tools loaded in.
+
