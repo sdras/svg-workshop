@@ -5,14 +5,21 @@ Author: Sarah Drasner
 
 This repo houses the materials and resources for the Advanced SVG Animation Workshop. Most of the materials for the course are outlined below, but there are also directories housed here of very basic examples of some of the techniques we will cover so that students don't have to spend a lot of time researching in order to get started. It is recommended that students use CodePen to create work for the duration of the course, as we'll use preprocessors like SCSS as well as Babel for ES6 and codepen makes it easy to do so without time devoted to setup. If you like, you can also scroll to the CodePen collection section and fork one of the existing pens in those collections, they are comprehensive. GreenSock pens in the collection use member's only plugins that are CodePen-safe. For MorphSVG, DrawSVG, and FindShapeIndex sections, localhost will fail and using CodePen is recommended.
 
+Here is a URL that has all of the codepen-safe versions of the [GSAP Plugins](http://codepen.io/GreenSock/pen/OPqpRJ)
+
+Here is the codepen debugger [chrome extension](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak)
+
 For sections covering React-Motion, it may make more sense to use Create-React-App so that your workflow more closely mirrors development, but that decision is up to you.
 
 ##Slides:
-* [SVG Workshop 1](http://slides.com/sdrasner/workshop1?token=GwIg9v4C)
-* [SVG Workshop 2](http://slides.com/sdrasner/workshop2?token=pR5HLetg)
-* [SVG Workshop 3](http://slides.com/sdrasner/workshop3?token=zWiaoPN8)
+* [SVG Workshop 1](http://slides.com/sdrasner/adv-svg-1?token=UCdXy3zz)
+* [SVG Workshop 2](http://slides.com/sdrasner/adv-svg-2?token=FxyYIMcu)
+* [SVG Workshop 3](http://slides.com/sdrasner/adv-svg-3?token=IiYk_UQj)
+* [SVG Workshop 4](http://slides.com/sdrasner/adv-svg-4?token=7eaTj3K2)
+* [SVG Workshop 5](http://slides.com/sdrasner/adv-svg-5?token=LhZjPnHL)
+
+##Bonus:
 * [SVG Workshop- DataVis](http://slides.com/sdrasner/svg-workshop-data-vis?token=rC0MZakh)
-* [SVG Workshop- React](http://slides.com/sdrasner/advanced-svg-animation-react?token=ufkHSlmC)
 * [SVG Workshop- Mo.js](http://slides.com/sdrasner/svg-workshop-mojs?token=wAkiI-Pe)
 
 All slides have password svgisawesome!@
