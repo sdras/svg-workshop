@@ -1,0 +1,1 @@
+TweenMax.staggerTo(".gsap .bar", 1, { backgroundColor: "orange", rotation: 90, delay: 2, ease: Sine.easeOut}, 0.1);

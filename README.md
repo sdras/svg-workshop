@@ -1,6 +1,6 @@
-# Advanced SVG Workshop
+# Building and Animating SVG
 
-Starter Materials for Advanced SVG Animation Workshop
+Starter Materials for SVG Animation Workshop
 Author: Sarah Drasner
 
 This repo houses the materials and resources for the Advanced SVG Animation Workshop. Most of the materials for the course are outlined below, but there are also directories housed here of very basic examples of some of the techniques we will cover so that students don't have to spend a lot of time researching in order to get started. It is recommended that students use CodePen to create work for the duration of the course, as we'll use preprocessors like SCSS as well as Babel for ES6 and codepen makes it easy to do so without time devoted to setup. If you like, you can also scroll to the CodePen collection section and fork one of the existing pens in those collections, they are comprehensive. GreenSock pens in the collection use member's only plugins that are CodePen-safe. For MorphSVG, DrawSVG, and FindShapeIndex sections, localhost will fail and using CodePen is recommended.
@@ -48,7 +48,7 @@ There are three directories you can use as GSAP starter kits:
 * master-timeline
 
 ##Part Four, Section Seven
-There are a few ways to work with the GSAP timeline in this file: gsap-resources.js. For any interaction with jQuery, remember to use the 3.0+ version. [Alpha](https://code.jquery.com/jquery-3.0.0-alpha1.js)
+There are a few ways to work with the GSAP timeline in this file: gsap-resources.js. 
 
 ##DataVis
 The starter resource for this section is in the directory basic-d3. This is d3 version 4, so be wary that if you try out of the box things that exist in the d3 docs for the blocks, they might not work. (Not very many d3 blocks have been updated.) Big changes include axis and transition, new version demo-ed here.

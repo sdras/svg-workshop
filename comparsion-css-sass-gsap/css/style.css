@@ -1,0 +1,98 @@
+html {
+  background: #333;
+}
+
+.bar {
+  margin: 20px;
+  background: red;
+  width: 40px;
+  height: 20px;
+}
+
+.css, .sass, .gsap {
+  float: left;
+}
+
+.css {
+  margin-left: 40%;
+}
+
+@-webkit-keyframes staggerFoo {
+  to {
+    background: orange;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@keyframes staggerFoo {
+  to {
+    background: orange;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+.css .bar:nth-child(1) {
+  -webkit-animation: staggerFoo 1s 0.1s ease-out both;
+          animation: staggerFoo 1s 0.1s ease-out both;
+}
+
+.css .bar:nth-child(2) {
+  -webkit-animation: staggerFoo 1s 0.2s ease-out both;
+          animation: staggerFoo 1s 0.2s ease-out both;
+}
+
+.css .bar:nth-child(3) {
+  -webkit-animation: staggerFoo 1s 0.3s ease-out both;
+          animation: staggerFoo 1s 0.3s ease-out both;
+}
+
+.css .bar:nth-child(4) {
+  -webkit-animation: staggerFoo 1s 0.4s ease-out both;
+          animation: staggerFoo 1s 0.4s ease-out both;
+}
+
+.css .bar:nth-child(5) {
+  -webkit-animation: staggerFoo 1s 0.5s ease-out both;
+          animation: staggerFoo 1s 0.5s ease-out both;
+}
+
+.css .bar:nth-child(6) {
+  -webkit-animation: staggerFoo 1s 0.5s ease-out both;
+          animation: staggerFoo 1s 0.5s ease-out both;
+}
+
+.sass .bar:nth-child(1) {
+  -webkit-animation: staggerFoo 1s 1.1s ease-out both;
+          animation: staggerFoo 1s 1.1s ease-out both;
+}
+
+.sass .bar:nth-child(2) {
+  -webkit-animation: staggerFoo 1s 1.2s ease-out both;
+          animation: staggerFoo 1s 1.2s ease-out both;
+}
+
+.sass .bar:nth-child(3) {
+  -webkit-animation: staggerFoo 1s 1.3s ease-out both;
+          animation: staggerFoo 1s 1.3s ease-out both;
+}
+
+.sass .bar:nth-child(4) {
+  -webkit-animation: staggerFoo 1s 1.4s ease-out both;
+          animation: staggerFoo 1s 1.4s ease-out both;
+}
+
+.sass .bar:nth-child(5) {
+  -webkit-animation: staggerFoo 1s 1.5s ease-out both;
+          animation: staggerFoo 1s 1.5s ease-out both;
+}
+
+.sass .bar:nth-child(6) {
+  -webkit-animation: staggerFoo 1s 1.6s ease-out both;
+          animation: staggerFoo 1s 1.6s ease-out both;
+}
+
+h2 {
+  text-align: center;
+  color: #666;
+}

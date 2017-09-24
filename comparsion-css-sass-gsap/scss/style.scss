@@ -1,0 +1,44 @@
+html {
+  background: #333;
+}
+
+.bar {
+  margin: 20px;
+  background: red;
+  width: 40px;
+  height: 20px;
+}
+
+.css, .sass, .gsap {
+  float: left;
+}
+
+.css {
+  margin-left: 40%;
+}
+
+@keyframes staggerFoo {
+  to {
+    background: orange;
+    transform: rotate(90deg);
+ }
+}
+
+.css .bar:nth-child(1) { animation: staggerFoo 1s 0.1s ease-out both; }
+.css .bar:nth-child(2) { animation: staggerFoo 1s 0.2s ease-out both; }
+.css .bar:nth-child(3) { animation: staggerFoo 1s 0.3s ease-out both; }
+.css .bar:nth-child(4) { animation: staggerFoo 1s 0.4s ease-out both; }
+.css .bar:nth-child(5) { animation: staggerFoo 1s 0.5s ease-out both; }
+.css .bar:nth-child(6) { animation: staggerFoo 1s 0.5s ease-out both; }
+
+@for $i from 1 through 6 {
+   .sass .bar:nth-child(#{$i} ) {
+       animation: staggerFoo 1s 1+($i * 0.1s) ease-out both;
+    }
+  }
+
+h2 {
+  text-align: center;
+  color: #666;
+}
+
