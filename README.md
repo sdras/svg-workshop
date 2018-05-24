@@ -41,9 +41,9 @@ Included in this repo are some very basic starter kits.
 There is a resource for the sprite and CSS animation SVG, should you need a starter resource.
 SVG Resources:
 
-* [http://icomoon.io/](Icomoon.io)
-* [https://thenounproject.com/](The Noun Project)
-* [http://www.freepik.com/](Freepik)
+* [Icomoon.io](http://icomoon.io/)
+* [The Noun Project](https://thenounproject.com/)
+* [Freepik](http://www.freepik.com/)
 
 ## Part Three, Section Six
 
