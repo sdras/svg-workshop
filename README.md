@@ -16,8 +16,6 @@ For sections covering React-Motion, it may make more sense to use Create-React-A
 * [SVG Workshop 1](http://slides.com/sdrasner/adv-svg-1?token=UCdXy3zz)
 * [SVG Workshop 2](http://slides.com/sdrasner/adv-svg-2?token=FxyYIMcu)
 * [SVG Workshop 3](http://slides.com/sdrasner/adv-svg-3?token=IiYk_UQj)
-* [SVG Workshop 4](http://slides.com/sdrasner/adv-svg-4?token=7eaTj3K2)
-* [SVG Workshop 5](http://slides.com/sdrasner/adv-svg-5-92?token=p53gS9NW)
 
 ## Bonus:
 
