@@ -1,6 +1,6 @@
 # [SVG Animation](https://frontendmasters.com/courses/svg-animation/) Course Materials
 
-Starter Materials for SVG Animation Course
+Starter Materials for the SVG Animation Course
 
 Author: Sarah Drasner
 
