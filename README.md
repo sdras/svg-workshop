@@ -1,6 +1,7 @@
 # [SVG Animation](https://frontendmasters.com/courses/svg-animation/) Course Materials
 
 Starter Materials for SVG Animation Course
+
 Author: Sarah Drasner
 
 This repo houses the materials and resources for the [SVG Animation Course](https://frontendmasters.com/courses/svg-animation/) on Frontend Masters. 
