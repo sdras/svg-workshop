@@ -4,7 +4,7 @@ Starter Materials for the SVG Animation Course
 
 Author: Sarah Drasner
 
-This repo houses the materials and resources for the SVG Essentials & Animation course on Frontend Masters. 
+This repo houses the materials and resources for the [SVG Essentials & Animation course](https://frontendmasters.com/courses/svg-essentials-animation/) on Frontend Masters. 
 
 Most of the materials for the course are outlined below, but there are also directories housed here of very basic examples of some of the techniques we will cover so that students don't have to spend a lot of time researching in order to get started. It is recommended that students use CodePen to create work for the duration of the course, as we'll use preprocessors like SCSS as well as Babel for ES6 and codepen makes it easy to do so without time devoted to setup. If you like, you can also scroll to the CodePen collection section and fork one of the existing pens in those collections, they are comprehensive. GreenSock pens in the collection use member's only plugins that are CodePen-safe. For MorphSVG, DrawSVG, and FindShapeIndex sections, localhost will fail and using CodePen is recommended.
 
